@@ -1,0 +1,92 @@
+* {
+            margin: 0;
+            padding: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #313638;
+            display: flex;
+            justify-content: center;
+        }
+        .quiz-box {
+            background-color: #f2f8fc;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            padding: 30px;
+            margin-top: 15%;
+        }
+        .quiz-box h1 {
+            color: #020f13;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+        }
+        .quiz-box hr {
+            height: 3px;
+            background-color: #31363827;
+            border: none;
+            border-radius: 10px
+        }
+        .question {
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: lighter;
+            color: #4a4b4b;
+        }
+        .btn {
+            background-color: white;
+            color: #4a4b4b;
+            font-weight: 500;
+            font-size: 15px;
+            width: 100%;
+            border: none;
+            padding: 10px;
+            margin: 5px 0;
+            text-align: start;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 4px rgba(0,0,0,0.2);
+        }
+        .btn:hover:not([disabled]) {
+            color: #313638;
+            scale: 1.02;
+            transition: all 150ms;
+        }
+        .btn:disabled {
+            cursor: no-drop;
+        }
+        .btn:active {
+            scale: 1;
+            transition: all ease-out 100ms;
+        }
+        .next-btn {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0 0 0;
+        }
+        .next-btn button{
+            background-color: #313638;
+            color: #f2f8fc;
+            font-weight: 500;
+            font-size: large;
+            padding: 8px 35px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            letter-spacing: 2px;
+        }
+        .next-btn button:hover {
+            scale: 1.05;
+            transition: all ease-in-out 200ms;
+        }
+        .next-btn button:active {
+            scale: 1;
+        }
+        .correct {
+            background-color: #b9f8cf;
+        }
+        .incorrect {
+            background-color: #ffc9c9;
+        }
