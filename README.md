@@ -1,7 +1,7 @@
 # Zenlezz Zone Zero Mini Quiz Game
 This is a simple Zenless Zone Zero Quiz Game using HTML, CSS, and Javascript.
 
-![Quiz App Screenshot](../Screenshot-2025-09-29-145303.png)
+![Quiz App Screenshot](/assets/Mini-Quiz-App-Screenshot.png)
 ## Features
 - Multiple choice questions
 - Score tracking
