@@ -12,7 +12,7 @@ This is a simple Zenless Zone Zero Quiz Game using HTML, CSS, and Javascript.
 ## How to Run
 1. Clone this repository
    ```bash
-   git clone https://github.com/your-username/quiz-app.git
+   git clone https://github.com/Tarclael/ZZZ-Mini-Quiz-Game.git
    ```
 
    Or
